@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DSA</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <span class="big-circle"></span>
+    <img src="img/shape.png" class="square" alt="" />
+    <div class="form">
+      <p>
+        <img src="srmdsa.png" alt="dsa" width="400" height="400">
+      </p>
+      <div class="contact-form">
+        <span class="circle one"></span>
+        <span class="circle two"></span>
+
+        <form action="data.php" method="post" autocomplete="off">
+          <h3 class="title">DSA project</h3>
+          <div class="input-container">
+            <input type="text" name="name" class="input" />
+            <label for="name">Name</label>
+            <span>Name</span>
+          </div>
+          <div class="input-container">
+            <input type="tel" name="phone" class="input" />
+            <label for="phone">Phone number</label>
+            <span>Phone number</span>
+          </div>
+          <div class="input-container">
+            <input type="email" name="email" class="input" />
+            <label for="email">Email (don't enter srmid)</label>
+            <span>Email (don't enter srmid)</span>
+          </div>
+          <div class="input-container">
+            <h4 class="title">Gender</h4>
+          </div>
+          <div class="radio-button">
+            <input type="radio" id="radio1" name="gender" value="Male" checked>
+            <label for="radio1">Male</label>
+            <input type="radio" id="radio2" name="gender" value="Female">
+            <label for="radio2">Female</label>
+            <input type="radio" id="radio3" name="gender" value="Other">
+            <label for="radio3">Other</label>
+          </div>
+          <input type="submit" value="Submit" class="btn" />
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
